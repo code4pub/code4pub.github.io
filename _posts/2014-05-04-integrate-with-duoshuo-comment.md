@@ -14,14 +14,14 @@ tags: [jekyll]
 
 ## 修改相关源文件
 - `_config.yml`
-<pre><code class="jeckll">
+{% highlight text %}
   comments :
     provider : duoshuo
     duoshuo :
       short_name : come
     disqus :
       short_name : jekyllbootstrap
-</code></pre>
+{% endhighlight %}
 
 
 - `_includes\JB\comments`
